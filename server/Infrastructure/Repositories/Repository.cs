@@ -42,16 +42,16 @@ public class Repository<T> : IRepository<T> where T : class
         return entity;
     }
 
-    public virtual async Task UpdateAsync(T entity)
+    public virtual Task UpdateAsync(T entity)
     {
         _dbSet.Update(entity);
-        await Task.CompletedTask;
+        return Task.CompletedTask;
     }
 
-    public virtual async Task DeleteAsync(T entity)
+    public virtual Task DeleteAsync(T entity)
     {
         _dbSet.Remove(entity);
-        await Task.CompletedTask;
+        return Task.CompletedTask;
     }
 
     public virtual async Task<int> CountAsync(Expression<Func<T, bool>>? predicate = null)
