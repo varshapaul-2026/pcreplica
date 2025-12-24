@@ -1,0 +1,12 @@
+/home/runner/work/pcreplica/pcreplica/server/Core/bin/Debug/net10.0/PcReplica.Core.deps.json
+/home/runner/work/pcreplica/pcreplica/server/Core/bin/Debug/net10.0/PcReplica.Core.dll
+/home/runner/work/pcreplica/pcreplica/server/Core/bin/Debug/net10.0/PcReplica.Core.pdb
+/home/runner/work/pcreplica/pcreplica/server/Core/obj/Debug/net10.0/PcReplica.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/pcreplica/pcreplica/server/Core/obj/Debug/net10.0/PcReplica.Core.AssemblyInfoInputs.cache
+/home/runner/work/pcreplica/pcreplica/server/Core/obj/Debug/net10.0/PcReplica.Core.AssemblyInfo.cs
+/home/runner/work/pcreplica/pcreplica/server/Core/obj/Debug/net10.0/PcReplica.Core.csproj.CoreCompileInputs.cache
+/home/runner/work/pcreplica/pcreplica/server/Core/obj/Debug/net10.0/PcReplica.Core.sourcelink.json
+/home/runner/work/pcreplica/pcreplica/server/Core/obj/Debug/net10.0/PcReplica.Core.dll
+/home/runner/work/pcreplica/pcreplica/server/Core/obj/Debug/net10.0/refint/PcReplica.Core.dll
+/home/runner/work/pcreplica/pcreplica/server/Core/obj/Debug/net10.0/PcReplica.Core.pdb
+/home/runner/work/pcreplica/pcreplica/server/Core/obj/Debug/net10.0/ref/PcReplica.Core.dll
