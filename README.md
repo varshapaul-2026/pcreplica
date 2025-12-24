@@ -83,9 +83,9 @@ dotnet run
 ```
 
 The API will be available at:
-- HTTP: `http://localhost:5000`
-- HTTPS: `https://localhost:5001`
-- Swagger UI: `https://localhost:5001/swagger`
+- HTTP: `http://localhost:5054`
+- HTTPS: `https://localhost:7036`
+- Swagger UI: `https://localhost:7036/swagger`
 
 ## Frontend Setup
 
@@ -101,7 +101,7 @@ npm install
 Create `client/src/services/api.js` and update the base URL if needed:
 
 ```javascript
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'http://localhost:5054/api';
 ```
 
 ### 3. Run the Development Server
@@ -191,7 +191,7 @@ You can test the API using:
 Example curl request:
 ```bash
 # Register a user
-curl -X POST http://localhost:5000/api/auth/register \
+curl -X POST http://localhost:5054/api/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "email": "admin@example.com",
@@ -203,7 +203,7 @@ curl -X POST http://localhost:5000/api/auth/register \
   }'
 
 # Login
-curl -X POST http://localhost:5000/api/auth/login \
+curl -X POST http://localhost:5054/api/auth/login \
   -H "Content-Type: application/json" \
   -d '{
     "email": "admin@example.com",

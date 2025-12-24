@@ -63,8 +63,8 @@ cd server/API
 dotnet run
 ```
 
-The API will start at `https://localhost:5001` (or similar port)
-- Swagger UI: `https://localhost:5001/swagger`
+The API will start at `https://localhost:7036` (or `http://localhost:5054`)
+- Swagger UI: `https://localhost:7036/swagger`
 
 ### 3. Setup Frontend
 
